@@ -188,7 +188,6 @@ Ce portfolio est distribué sous licence MIT. Libre d'utilisation à titre perso
 
 ## 📞 Contact
 
-- **GitHub** : [@seydina-kane](https://github.com/seydina-aboubacry-kane)
 - **Email** : [kaneaboubacry903@gmail.com]
 - **LinkedIn** : [www.linkedin.com/in/seydina-aboubacry-kane]
 - **Location** : Grenoble, France
