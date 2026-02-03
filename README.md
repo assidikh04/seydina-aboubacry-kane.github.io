@@ -4,7 +4,7 @@ Portfolio professionnel d'un étudiant en BUT GEII (Génie Électrique et Inform
 
 ## 🌐 Visite le portfolio
 
-[👉 Voir le portfolio en ligne](https://seydina-aboubacry--kane.github.io)
+[👉 Voir le portfolio en ligne](https://assidikh04.github.io/seydina-aboubacry-kane.github.io/)
 
 ## 📋 À propos
 
