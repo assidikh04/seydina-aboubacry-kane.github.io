@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projets réalisés par Seydina Aboubacry Kane en électronique et microélectronique.">
+  <title>Projets - Seydina Aboubacry Kane</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">S. A. KANE</div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="competences.html">Compétences</a>
+      <a href="projets.html" class="active">Projets</a>
+      <a href="experiences.html">Expérience</a>
+      <a href="https://github.com/seydina-kane" target="_blank" class="btn-download">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="tag">Réalisations académiques & professionnelles</p>
+        <h1>Mes projets</h1>
+        <p class="hero-sub">
+          Sélection de mes projets en électronique, microélectronique et systèmes embarqués, 
+          réalisés en contexte académique et professionnel au CEA-Leti.
+        </p>
+      </div>
+    </section>
+
+    <section class="projects-section section">
+      <!-- PROJET 1: NMOS -->
+      <article id="nmos" class="project-card">
+        <div class="project-header">
+          <h2>Transistor NMOS microfabriqué</h2>
+          <p class="project-tag">Microfabrication · SILVACO Athena · Salle blanche CIME Nanotech</p>
+        </div>
+        <div class="project-content">
+          <p><strong>Objectif :</strong> Maîtriser la chaîne complète de fabrication de transistors NMOS avec grilles de 1-10 µm, 
+          de la simulation du procédé à la caractérisation électrique finale.</p>
+          
+          <!-- Image du projet (à ajouter) -->
+          <div class="project-image">
+            <img src="images/nmos-transistor.png" alt="Transistor NMOS microfabriqué" loading="lazy">
+          </div>
+
+          <div class="project-grid">
+            <div>
+              <h4>Simulation</h4>
+              <p>Modélisation des procédés sous SILVACO Athena incluant la croissance de Silicon, Polysilicon, 
+              oxyde SiO2 et métallisation en Aluminium.</p>
+            </div>
+            <div>
+              <h4>Fabrication en salle blanche</h4>
+              <p>Photolithographie, gravure RIE, implantation ionique pour dopage, 
+              métallisation par pulvérisation cathodique.</p>
+            </div>
+            <div>
+              <h4>Caractérisation</h4>
+              <p>Contrôle des épaisseurs et qualité de gravure par profilométrie, 
+              mesures électriques des caractéristiques du transistor.</p>
+            </div>
+          </div>
+
+          <div class="project-results">
+            <p><strong>Résultats clés :</strong> Épaisseur d'aluminium mesurée conforme aux spécifications. 
+            Tension de seuil Vth extraite et validée. Résultats expérimentaux en excellent accord avec 
+            les simulations SILVACO.</p>
+          </div>
+
+          <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(148, 163, 184, 0.3);">
+            <p><strong>Compétences développées :</strong> Simulation de procédé, microfabrication, 
+            profilométrie, mesures électriques, analyse de résultats.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJET 2: ANTENNE RF -->
+      <article id="antenne" class="project-card">
+        <div class="project-header">
+          <h2>Conception et réalisation d'une antenne RF</h2>
+          <p class="project-tag">Caractérisation RF · Analyseur VNA · Paramètres S11/S21</p>
+        </div>
+        <div class="project-content">
+          <p><strong>Objectif :</strong> Concevoir, réaliser et caractériser une antenne patch opérant 
+          à 2.5 GHz avec validation complète des performances RF.</p>
+
+          <!-- Image du projet (à ajouter) -->
+          <div class="project-image">
+            <img src="images/antenne-rf.png" alt="Antenne RF 2.5 GHz" loading="lazy">
+          </div>
+
+          <ul class="project-list">
+            <li><strong>Layout & conception :</strong> Antenne patch optimisée pour 2.5 GHz</li>
+            <li><strong>Mesure S11 :</strong> Creux de résonance bien marqué, bande passante centrée à la fréquence cible</li>
+            <li><strong>Mesure S21 :</strong> Validation des performances de transmission et isolation</li>
+            <li><strong>Outils utilisés :</strong> Analyseur de réseau vectoriel (VNA)</li>
+          </ul>
+
+          <div class="project-results">
+            <p><strong>Résultats :</strong> Antenne opérationnelle avec gain et directivité conformes aux objectifs. 
+            Accord théorie-expérience validé par les mesures RF.</p>
+          </div>
+
+          <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(148, 163, 184, 0.3);">
+            <p><strong>Compétences développées :</strong> Conception RF, caractérisation avec VNA, 
+            interprétation des paramètres S, intégration système.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJET 3: ÉTUVE PID -->
+      <article id="etuve" class="project-card">
+        <div class="project-header">
+          <h2>Étuve régulée à 37°C avec contrôle PID</h2>
+          <p class="project-tag">Régulation PID · Instrumentation · Stabilité thermique</p>
+        </div>
+        <div class="project-content">
+          <p><strong>Objectif :</strong> Concevoir une étuve permettant une stabilisation précise à 37°C 
+          avec un contrôle thermique robuste basé sur une régulation PID.</p>
+
+          <!-- Image du projet (à ajouter) -->
+          <div class="project-image">
+            <img src="images/etuve-pid.png" alt="Étuve régulée PID 37°C" loading="lazy">
+          </div>
+
+          <ul class="project-list">
+            <li><strong>Implémentation :</strong> Algorithme PID optimisé pour température</li>
+            <li><strong>Temps de montée :</strong> 48 minutes pour atteindre 37°C depuis l'ambiante</li>
+            <li><strong>Stabilisation :</strong> Maintien de la température avec ±0.5°C</li>
+            <li><strong>Analyse :</strong> Courbes de stabilisation thermique caractérisées</li>
+          </ul>
+
+          <div class="project-results">
+            <p><strong>Résultats :</strong> Étuve fonctionnelle avec stabilité thermique validée. 
+            Contrôle PID performant garantissant un environnement thermiquement stable pour applications biomédicales.</p>
+          </div>
+
+          <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(148, 163, 184, 0.3);">
+            <p><strong>Compétences développées :</strong> Régulation PID, instrumentation thermique, 
+            contrôle en temps réel, optimisation de paramètres.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJET 4: MICROBATTERIES -->
+      <article class="project-card">
+        <div class="project-header">
+          <h2>Caractérisation de microbatteries</h2>
+          <p class="project-tag">CEA-Leti · Wire bonding · Packaging · Mesures électriques</p>
+        </div>
+        <div class="project-content">
+          <p><strong>Contexte :</strong> Projet professionnel au CEA-Leti dans le cadre de l'apprentissage. 
+          Opérations de wire bonding, packaging et caractérisation électrique de microbatteries innovantes.</p>
+
+          <!-- Image du projet (à ajouter) -->
+          <div class="project-image">
+            <img src="images/microbatteries.png" alt="Caractérisation de microbatteries" loading="lazy">
+          </div>
+
+          <ul class="project-list">
+            <li><strong>Wire bonding :</strong> Connexions électriques de précision µm</li>
+            <li><strong>Packaging :</strong> Encapsulation des composants microélectroniques</li>
+            <li><strong>Tests électriques :</strong> Protocoles de caractérisation et mesure des performances</li>
+            <li><strong>Optimisation :</strong> Analyse des résultats et amélioration des processus</li>
+            <li><strong>Documentation :</strong> Rapports techniques détaillés des résultats</li>
+          </ul>
+
+          <div class="project-results">
+            <p><strong>Apports :</strong> Maîtrise complète des techniques de packaging microélectronique. 
+            Contribution à l'optimisation des processus de fabrication au CEA-Leti.</p>
+          </div>
+
+          <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(148, 163, 184, 0.3);">
+            <p><strong>Compétences développées :</strong> Wire bonding, packaging, caractérisation électrique, 
+            protocoles de test, gestion de projet technique.</p>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 · Seydina Aboubacry Kane · Portfolio BUT GEII & CEA-Leti · 
+      <a href="https://github.com/seydina-kane" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <script>
+    // Gestion des images manquantes avec placeholder
+    document.querySelectorAll('.project-image img').forEach(img => {
+      img.addEventListener('error', function() {
+        this.style.display = 'none';
+        this.parentElement.innerHTML = 
+          '<div style="background: rgba(148, 163, 184, 0.1); padding: 40px; text-align: center; border-radius: 8px; color: #94a3b8;">' +
+          '📸 Image du projet à ajouter<br><small>Placez vos images dans le dossier images/</small>' +
+          '</div>';
+      });
+    });
+  </script>
+</body>
+</html>

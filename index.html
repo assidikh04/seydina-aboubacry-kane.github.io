@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Seydina Aboubacry Kane - Étudiant BUT GEII et apprenti CEA-Leti. Électronique, systèmes embarqués et microélectronique.">
+  <meta name="keywords" content="BUT GEII, CEA-Leti, électronique, microélectronique, systèmes embarqués">
+  <meta name="author" content="Seydina Aboubacry Kane">
+  <title>Seydina Aboubacry Kane - Portfolio Électronique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">S. A. KANE</div>
+    <nav>
+      <a href="index.html" class="active">Accueil</a>
+      <a href="competences.html">Compétences</a>
+      <a href="projets.html">Projets</a>
+      <a href="experiences.html">Expérience</a>
+      <a href="https://github.com/seydina-kane" target="_blank" class="btn-download">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="tag">Étudiant BUT GEII · Apprenti CEA-Leti</p>
+        <h1>Concevoir les systèmes électroniques de demain</h1>
+        <p class="hero-sub">
+          Étudiant en 3e année du BUT Génie Électrique et Informatique Industrielle (UGA), 
+          spécialisé en électronique, systèmes embarqués et microélectronique. Actuellement en apprentissage 
+          au CEA-Leti à Grenoble, je conçois et réalise des projets de microélectronique en salle blanche.
+        </p>
+        <div class="hero-actions">
+          <a href="projets.html" class="btn primary">Découvrir mes projets</a>
+          <a href="competences.html" class="btn ghost">Mes compétences</a>
+        </div>
+        <div class="hero-meta">
+          <span>CEA-Leti, Grenoble</span>
+          <span>UGA · BUT GEII</span>
+          <span>Électronique & Microélectronique</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <div class="stat-number">3e année</div>
+        <p>BUT GEII</p>
+      </div>
+      <div class="stat">
+        <div class="stat-number">CEA-Leti</div>
+        <p>Apprentissage</p>
+      </div>
+      <div class="stat">
+        <div class="stat-number">6+</div>
+        <p>projets techniques</p>
+      </div>
+      <div class="stat">
+        <div class="stat-number">Salle blanche</div>
+        <p>CIME Nanotech</p>
+      </div>
+    </section>
+
+    <section class="latest-projects section">
+      <div class="section-header">
+        <h2>Projets en vedette</h2>
+        <p>Une sélection de mes réalisations académiques et professionnelles</p>
+      </div>
+      <div class="grid card-grid">
+        <article class="card">
+          <h3>Transistor NMOS microfabriqué</h3>
+          <p class="card-tag">Salle blanche · SILVACO · Caractérisation</p>
+          <p>Simulation, fabrication et caractérisation complète d'un transistor NMOS en salle blanche au CIME Nanotech.</p>
+          <a href="projets.html#nmos" class="card-link">→ Voir le projet</a>
+        </article>
+        <article class="card">
+          <h3>Antenne RF 2.5 GHz</h3>
+          <p class="card-tag">Caractérisation RF · Analyseur VNA</p>
+          <p>Conception, layout et mesures des paramètres S11/S21 avec validation complète des performances.</p>
+          <a href="projets.html#antenne" class="card-link">→ Voir le projet</a>
+        </article>
+        <article class="card">
+          <h3>Étuve régulée PID 37°C</h3>
+          <p class="card-tag">Régulation · Instrumentation</p>
+          <p>Conception d'une étuve avec stabilisation thermique précise et contrôle PID automatisé.</p>
+          <a href="projets.html#etuve" class="card-link">→ Voir le projet</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 · Seydina Aboubacry Kane · Portfolio BUT GEII & CEA-Leti · 
+      <a href="https://github.com/seydina-kane" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <script>
+    // Animation des statistiques au chargement
+    window.addEventListener('load', () => {
+      const stats = document.querySelectorAll('.stat');
+      stats.forEach((stat, i) => {
+        setTimeout(() => {
+          stat.style.opacity = '1';
+          stat.style.transform = 'translateY(0)';
+        }, i * 100);
+      });
+    });
+
+    // Mise en évidence du lien actif
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function() {
+        document.querySelectorAll('nav a').forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
