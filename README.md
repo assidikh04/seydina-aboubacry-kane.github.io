@@ -4,7 +4,7 @@ Portfolio professionnel d'un étudiant en BUT GEII (Génie Électrique et Inform
 
 ## 🌐 Visite le portfolio
 
-[👉 Voir le portfolio en ligne](https://seydina-kane.github.io)
+[👉 Voir le portfolio en ligne](https://seydina-aboubacry--kane.github.io)
 
 ## 📋 À propos
 
@@ -188,9 +188,9 @@ Ce portfolio est distribué sous licence MIT. Libre d'utilisation à titre perso
 
 ## 📞 Contact
 
-- **GitHub** : [@seydina-kane](https://github.com/seydina-kane)
-- **Email** : [À ajouter]
-- **LinkedIn** : [À ajouter]
+- **GitHub** : [@seydina-kane](https://github.com/seydina-aboubacry-kane)
+- **Email** : [kaneaboubacry903@gmail.com]
+- **LinkedIn** : [www.linkedin.com/in/seydina-aboubacry-kane]
 - **Location** : Grenoble, France
 
 ---
